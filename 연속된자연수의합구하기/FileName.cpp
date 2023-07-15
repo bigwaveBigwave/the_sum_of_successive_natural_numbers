@@ -10,6 +10,7 @@ int main()
     int N;
     cin >> N;
     int count = 1; // 경우의 수(=우리가 원하는 결과) 본인 자신을 미리 카운트
+
     int start_index = 1;
     int end_index = 1;
     int sum = 1;
