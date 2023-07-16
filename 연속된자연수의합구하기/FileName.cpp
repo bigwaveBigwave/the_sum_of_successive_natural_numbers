@@ -16,10 +16,10 @@ int main()
     int sum = 1;
     while (end_index != N) // end_index == N 인 경우(본인자신_를 제외, count의 초기값이 1인 이유
     {
-        // 작성하세요.
+        
         if (sum == N) {
             count++;
-            //star_idx,end_idx -> sum
+            //start_idx,end_idx -> sum
             end_index++;
             sum = sum + end_index;
 
@@ -29,7 +29,7 @@ int main()
             start_index++;
 
         }
-        else { // sum <N
+        else { // sum < N
             end_index++;
             sum = sum + end_index;
         }
