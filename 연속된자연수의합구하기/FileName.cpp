@@ -19,10 +19,12 @@ int main()
     {
         
         if (sum == N) {
+            
             count++;
             //start_idx,end_idx -> sum
             end_index++;
             sum = sum + end_index;
+
 
         }
         else if (sum > N) {
